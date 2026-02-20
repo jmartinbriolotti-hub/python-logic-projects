@@ -14,3 +14,21 @@ A classic interactive game where the computer thinks of a secret number and the 
 ### How to run:
 ```bash
 python guess_the_number.py
+
+
+
+
+
+
+
+
+## 🎮 Project 2: Hangman Game (El Ahorcado)
+This is my own version of the classic Hangman game! The script chooses a random word from a list, and the player has 6 lives to guess it. 
+
+I am really proud of this one because it has some cool logic inside.
+
+### What I practiced in this project:
+- **Input Validation:** I wrote a condition to check if the user types a real letter, and I also check if they already used that letter before. 
+- **The `enumerate()` function:** I used this to find the exact position (index) of the letter inside the secret word.
+- **Lists:** I used a list to keep track of the `used_letters` and to show the `hidden_word` with underscores (`_`).
+- **While-Else loop:** A nice Python trick to print the "Game Over" message only if the loop finishes because you lost all your lives.
