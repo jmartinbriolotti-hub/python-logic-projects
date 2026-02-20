@@ -17,7 +17,8 @@ python guess_the_number.py
 
 
 
-
+#####################################################
+PROJECT 2
 
 
 
@@ -35,7 +36,8 @@ I am really proud of this one because it has some cool logic inside.
 
 
 
-
+#####################################################
+PROJECT 3
 
 
 ## 📁 Project 3: Recipe Manager (File Handling)
@@ -46,3 +48,25 @@ This was my first large script! It's a console-based application to manage text 
 - **Relative Paths:** I learned to use relative paths instead of my local absolute path so the code works on any machine.
 - **Handling empty states:** I added a bug fix to prevent the app from crashing if a user tries to read or delete a recipe from an empty category folder.
 - **Functions:** I separated the logic into smaller functions (`show_categories`, `create_recipe`, etc.) to keep the main `while` loop clean.
+
+
+
+
+#####################################################
+PROJECT 4
+
+
+
+# 🏦 OOP Banking System (Python)
+This is the final project of Day 7 of my Python learning journey! 
+
+Until now, I was writing simple scripts, but in this project, I leaped into **Object-Oriented Programming (OOP)**. It's a terminal-based banking app where I built my first classes and objects from scratch.
+
+### Concepts I learned and applied:
+- **Classes and Objects:** Creating blueprints for a `Person` and a `Customer`.
+- **Inheritance (`super()`):** Passing the name attributes from the Person class down to the Customer class without repeating code.
+- **Encapsulation:** Managing the account balance purely through internal methods (`deposit` and `withdraw`), keeping the logic secure.
+- **Magic Methods:** Overriding the `__str__` method to create a nice, readable dashboard for the customer's account.
+- **Terminal UI:** Integrating `os.system('clear')` and input pauses to make the console app actually usable and clean.
+
+I'm really happy with how the architecture turned out. It was a great challenge to put all these new concepts together!
